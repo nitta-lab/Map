@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class MapLongitude {
 	private double value;
 	public double getValue() {
