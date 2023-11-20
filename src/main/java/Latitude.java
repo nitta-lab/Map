@@ -9,8 +9,8 @@ public class Latitude {
 	public double getValue() {
 		return this.value;
 	}
-	public void updateGPS(double lat2, double long2) {
-		this.value = lat2;
+	public void updateGPS(double cur_lat, double cur_long) {
+		this.value = cur_lat;
 		this.mapLatitude.updateLatitude(this.value);
 	}
 }

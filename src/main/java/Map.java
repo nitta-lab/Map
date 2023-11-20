@@ -17,9 +17,9 @@ public class Map {
 	public double getLongitude() {
 		return longitude.getValue();
 	}
-	public void updateGPS(double lat2, double long2) {
-		this.longitude.updateGPS(lat2, long2);
-		this.latitude.updateGPS(lat2, long2);
+	public void updateGPS(double cur_lat, double cur_long) {
+		this.longitude.updateGPS(cur_lat, cur_long);
+		this.latitude.updateGPS(cur_lat, cur_long);
 	}
 	public double getMapLatitude() {
 		return mapLatitude.getValue();
