@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class MapLatitude {
 	private double value;
 	public double getValue() {

@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Presenter {
 	private Longitude longitude;
 	private Latitude latitude;
@@ -9,9 +11,9 @@ public class Presenter {
 		this.mapLongitude = mapLongitude;
 		this.mapLatitude = mapLatitude;
 	}
-	public void updateGPS(double lat2, double long2) {
-		double longitude = this.longitude.updateGPS(lat2, long2);
-		double latitude = this.latitude.updateGPS(lat2, long2);
+	public void updateGPS(double cur_lat, double cur_long) {
+		double longitude = this.longitude.updateGPS(cur_lat, cur_long);
+		double latitude = this.latitude.updateGPS(cur_lat, cur_long);
 		this.mapLongitude.updateLongitude(longitude);
 		this.mapLatitude.updateLatitude(latitude);
 	}
