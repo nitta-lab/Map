@@ -5,7 +5,7 @@ public class TestGPSUpdate {
 
 	@Test
 	public void test() {
-		// –kˆÜ35.0“xC“ŒŒo135.0“x‚Éİ’è‚·‚é
+		// åŒ—ç·¯35.0åº¦ï¼Œæ±çµŒ135.0åº¦ã«è¨­å®šã™ã‚‹
 		Map map = new Map();
 		map.updateGPS(35.0, 135.0);
 		double lati = map.getLatitude();
@@ -17,7 +17,7 @@ public class TestGPSUpdate {
 		assertEquals(mapLati, 35.0, 0.0001);
 		assertEquals(mapLongi, 135.0, 0.0001);		
 		
-		// ˆÜ“x•ûŒü‚ÉˆÚ“®‚·‚é
+		// ç·¯åº¦æ–¹å‘ã«ç§»å‹•ã™ã‚‹
 		map.updateGPS(35.1, 135.0);
 		lati = map.getLatitude();
 		longi = map.getLongitude();
@@ -28,7 +28,7 @@ public class TestGPSUpdate {
 		assertEquals(mapLati, 35.1, 0.0001);
 		assertEquals(mapLongi, 135.0, 0.0001);
 		
-		// Œo“x•ûŒü‚ÉˆÚ“®‚·‚é
+		// çµŒåº¦æ–¹å‘ã«ç§»å‹•ã™ã‚‹
 		map.updateGPS(35.1, 135.1);
 		lati = map.getLatitude();
 		longi = map.getLongitude();
