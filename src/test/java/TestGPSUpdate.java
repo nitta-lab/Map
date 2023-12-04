@@ -5,7 +5,7 @@ public class TestGPSUpdate {
 
 	@Test
 	public void test() {
-		// 北緯35.0度，東経135.0度に設定する
+		// 北緯35.0度, 東経135.0度に設定する
 		Map map = new Map();
 		map.updateGPS(35.0, 135.0);
 		double lati = map.getLatitude();
