@@ -1,0 +1,46 @@
+Dec 05, 2023 6:22:56 PM application.ApplicationWindow <init>
+INFO: launched
+Dec 05, 2023 6:23:14 PM application.ApplicationWindow <init>
+INFO: launched
+Dec 05, 2023 6:23:33 PM application.actions.AbstractSystemAction actionPerformed
+INFO: ??
+Dec 05, 2023 6:23:42 PM application.views.NavigationWindow stageChanged
+INFO: application.editor.stages.DataFlowModelingStage@4192fb0f
+Dec 05, 2023 6:23:42 PM application.views.NavigationWindow stageChanged
+INFO: application.editor.stages.PushPullSelectionStage@766389a9
+Dec 05, 2023 6:24:41 PM application.editor.stages.PushPullSelectionCellEditor stopEditing
+INFO: PUSH
+Dec 05, 2023 6:24:45 PM application.editor.stages.PushPullSelectionCellEditor stopEditing
+INFO: PUSH
+Dec 05, 2023 6:25:38 PM application.editor.stages.ControlFlowDelegationStage$2 mouseReleased
+INFO: Open popup menu
+Dec 05, 2023 6:25:39 PM application.actions.AbstractPopupAction actionPerformed
+INFO: ????????????
+Dec 05, 2023 6:26:16 PM application.editor.stages.ControlFlowDelegationCellEditor startEditing
+INFO: Double clicked
+Dec 05, 2023 6:26:16 PM application.editor.stages.ControlFlowDelegationCellEditor startEditing
+INFO: Selecting Control-Flow (src, dst) = (presenter, longitude)
+Dec 05, 2023 6:26:23 PM application.editor.stages.ControlFlowDelegationCellEditor startEditing
+INFO: "presenter" wasn't able to apply to CFD
+Dec 05, 2023 6:26:24 PM application.editor.stages.ControlFlowDelegationStage$2 mouseReleased
+INFO: Reset selection
+Dec 05, 2023 6:26:42 PM application.editor.stages.ControlFlowDelegationCellEditor startEditing
+INFO: Double clicked
+Dec 05, 2023 6:26:42 PM application.editor.stages.ControlFlowDelegationCellEditor startEditing
+INFO: Selecting Control-Flow (src, dst) = (updateGPS, latitude)
+Dec 05, 2023 6:26:44 PM application.editor.stages.ControlFlowDelegationCellEditor startEditing
+INFO: Apply CFD to "presenter"
+Dec 05, 2023 6:26:51 PM application.editor.stages.ControlFlowDelegationCellEditor startEditing
+INFO: Double clicked
+Dec 05, 2023 6:26:51 PM application.editor.stages.ControlFlowDelegationCellEditor startEditing
+INFO: Selecting Control-Flow (src, dst) = (longitude, mapLongitude)
+Dec 05, 2023 6:26:54 PM application.editor.stages.ControlFlowDelegationCellEditor startEditing
+INFO: Apply CFD to "presenter"
+Dec 05, 2023 6:26:56 PM application.editor.stages.ControlFlowDelegationCellEditor startEditing
+INFO: Double clicked
+Dec 05, 2023 6:26:56 PM application.editor.stages.ControlFlowDelegationCellEditor startEditing
+INFO: Selecting Control-Flow (src, dst) = (latitude, mapLatitude)
+Dec 05, 2023 6:27:06 PM application.editor.stages.ControlFlowDelegationCellEditor startEditing
+INFO: Apply CFD to "presenter"
+Dec 05, 2023 6:27:21 PM application.actions.AbstractEditorAction actionPerformed
+INFO: Java?????????
