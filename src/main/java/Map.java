@@ -28,4 +28,10 @@ public class Map {
 	public void updateGPS(double cur_lat, double cur_long) {
 		this.presenter.updateGPS(cur_lat, cur_long);
 	}
+    public void setAutoUpdate(boolean isAutoUpdate) {
+        this.presenter.setAutoUpdate(isAutoUpdate);
+    }
+    public void updateManually() {
+        this.presenter.updateManually();
+    }
 }
