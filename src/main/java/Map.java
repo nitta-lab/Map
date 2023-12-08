@@ -12,6 +12,7 @@ public class Map {
 		this.longitude = new Longitude(mapLongitude);
 		this.mapLatitude = new MapLatitude();
 		this.latitude = new Latitude(mapLatitude);
+//        this.presenter = new Presenter(mapLongitude,longitude,mapLatitude,latitude);
 	}
 	public double getMapLongitude() {
 		return mapLongitude.getValue();
