@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class Longitude {
 	private MapLongitude mapLongitude;
 	private double value;
@@ -9,8 +7,8 @@ public class Longitude {
 	public double getValue() {
 		return this.value;
 	}
-	public void updateGPS(double cur_lat, double cur_long) {
+	public double updateGPS(double cur_lat, double cur_long) {
 		this.value = cur_long;
-		this.mapLongitude.updateLongitude(this.value);
+		return this.value;
 	}
 }
