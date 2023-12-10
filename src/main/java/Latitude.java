@@ -1,9 +1,7 @@
+import java.util.*;
+
 public class Latitude {
-	private MapLatitude mapLatitude;
 	private double value;
-	public Latitude(MapLatitude mapLatitude) {
-		this.mapLatitude = mapLatitude;
-	}
 	public double getValue() {
 		return this.value;
 	}

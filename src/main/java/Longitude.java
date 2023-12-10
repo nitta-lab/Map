@@ -1,9 +1,7 @@
+import java.util.*;
+
 public class Longitude {
-	private MapLongitude mapLongitude;
 	private double value;
-	public Longitude(MapLongitude mapLongitude) {
-		this.mapLongitude = mapLongitude;
-	}
 	public double getValue() {
 		return this.value;
 	}
