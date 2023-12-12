@@ -1,0 +1,62 @@
+Dec 12, 2023 9:14:58 AM application.ApplicationWindow <init>
+INFO: launched
+Dec 12, 2023 9:15:57 AM application.actions.AbstractSystemAction actionPerformed
+INFO: ??
+Dec 12, 2023 9:16:04 AM application.views.NavigationWindow stageChanged
+INFO: application.editor.stages.DataFlowModelingStage@20dcc939
+Dec 12, 2023 9:16:04 AM application.views.NavigationWindow stageChanged
+INFO: application.editor.stages.PushPullSelectionStage@30f453f5
+Dec 12, 2023 9:16:25 AM application.editor.stages.PushPullSelectionCellEditor stopEditing
+INFO: PUSHorPULL
+Dec 12, 2023 9:16:30 AM application.editor.stages.PushPullSelectionCellEditor stopEditing
+INFO: PUSHorPULL
+Dec 12, 2023 9:16:37 AM application.editor.stages.PushPullSelectionCellEditor stopEditing
+INFO: PUSHorPULL
+Dec 12, 2023 9:16:49 AM application.editor.stages.ControlFlowDelegationStage$2 mouseReleased
+INFO: Open popup menu
+Dec 12, 2023 9:16:56 AM application.editor.stages.ControlFlowDelegationStage$2 mouseReleased
+INFO: Open popup menu
+Dec 12, 2023 9:17:01 AM application.editor.stages.ControlFlowDelegationStage$2 mouseReleased
+INFO: Open popup menu
+Dec 12, 2023 9:17:05 AM application.editor.stages.ControlFlowDelegationStage$2 mouseReleased
+INFO: Open popup menu
+Dec 12, 2023 9:17:06 AM application.actions.AbstractPopupAction actionPerformed
+INFO: ????????
+Dec 12, 2023 9:17:11 AM application.editor.stages.ControlFlowDelegationStage$2 mouseReleased
+INFO: Open popup menu
+Dec 12, 2023 9:29:34 AM application.ApplicationWindow <init>
+INFO: launched
+Dec 12, 2023 9:29:39 AM application.actions.AbstractSystemAction actionPerformed
+INFO: ??
+Dec 12, 2023 9:29:46 AM application.views.NavigationWindow stageChanged
+INFO: application.editor.stages.DataFlowModelingStage@e6d7875
+Dec 12, 2023 9:29:46 AM application.views.NavigationWindow stageChanged
+INFO: application.editor.stages.PushPullSelectionStage@2d9bcdc9
+Dec 12, 2023 9:30:08 AM application.editor.stages.PushPullSelectionCellEditor stopEditing
+INFO: PUSH
+Dec 12, 2023 9:30:12 AM application.editor.stages.PushPullSelectionCellEditor stopEditing
+INFO: PUSH
+Dec 12, 2023 9:30:23 AM application.editor.stages.ControlFlowDelegationStage$2 mouseReleased
+INFO: Open popup menu
+Dec 12, 2023 9:30:24 AM application.actions.AbstractPopupAction actionPerformed
+INFO: ????????????
+Dec 12, 2023 9:30:48 AM application.editor.stages.ControlFlowDelegationCellEditor startEditing
+INFO: Double clicked
+Dec 12, 2023 9:30:48 AM application.editor.stages.ControlFlowDelegationCellEditor startEditing
+INFO: Selecting Control-Flow (src, dst) = (updateGPS, latitude)
+Dec 12, 2023 9:30:51 AM application.editor.stages.ControlFlowDelegationCellEditor startEditing
+INFO: Apply CFD to "presenter"
+Dec 12, 2023 9:30:54 AM application.editor.stages.ControlFlowDelegationCellEditor startEditing
+INFO: Double clicked
+Dec 12, 2023 9:30:54 AM application.editor.stages.ControlFlowDelegationCellEditor startEditing
+INFO: Selecting Control-Flow (src, dst) = (longitude, mapLongitude)
+Dec 12, 2023 9:30:56 AM application.editor.stages.ControlFlowDelegationCellEditor startEditing
+INFO: Apply CFD to "presenter"
+Dec 12, 2023 9:30:58 AM application.editor.stages.ControlFlowDelegationCellEditor startEditing
+INFO: Double clicked
+Dec 12, 2023 9:30:58 AM application.editor.stages.ControlFlowDelegationCellEditor startEditing
+INFO: Selecting Control-Flow (src, dst) = (latitude, mapLatitude)
+Dec 12, 2023 9:31:00 AM application.editor.stages.ControlFlowDelegationCellEditor startEditing
+INFO: Apply CFD to "presenter"
+Dec 12, 2023 9:37:20 AM application.actions.AbstractEditorAction actionPerformed
+INFO: Java?????????
