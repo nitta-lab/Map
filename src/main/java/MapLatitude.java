@@ -1,11 +1,11 @@
 import java.util.*;
 
 public class MapLatitude {
-	private double value;
-	public double getValue() {
-		return this.value;
+	private Latitude latitude;
+	public MapLatitude(Latitude latitude) {
+		this.latitude = latitude;
 	}
-	public void updateLatitude(double latitude) {
-		this.value = latitude;
+	public double getValue() {
+		return this.latitude.getValue();
 	}
 }

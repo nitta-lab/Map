@@ -1,11 +1,11 @@
 import java.util.*;
 
 public class MapLongitude {
-	private double value;
-	public double getValue() {
-		return this.value;
+	private Longitude longitude;
+	public MapLongitude(Longitude longitude) {
+		this.longitude = longitude;
 	}
-	public void updateLongitude(double longitude) {
-		this.value = longitude;
+	public double getValue() {
+		return this.longitude.getValue();
 	}
 }
